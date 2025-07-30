@@ -1,0 +1,18 @@
+.signIn {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 9.5%;
+}
+
+#register {
+    background-color: #2A52BE;
+    color: white;
+}
+
+.signIn * {
+    background-color: transparent;
+    border: 1px rgb(207, 207, 207) solid;
+    border-radius: 0.25rem;
+    padding: 0.3rem;
+}

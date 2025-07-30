@@ -1,0 +1,31 @@
+.searchButton {
+    width: 1rem;
+    height: 1rem;
+}
+
+.searchBar {
+    background-color: rgb(236, 236, 236);
+    padding: 0.75rem;
+    border-radius: 1rem;
+    border: 1px rgb(223, 223, 223) solid;
+
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBar input:focus {
+    border: none;
+}
+
+.searchBar img {
+    padding: 0.25rem;
+}
+
+.searchBar * {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}

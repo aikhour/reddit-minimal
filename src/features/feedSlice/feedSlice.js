@@ -8,10 +8,11 @@ export const feedSlice = createSlice({
     },
     reducers: {
         setSearchTerm(state, action) {
-            state.feed.searchTerm = action.payload;
+            state.searchTerm = action.payload;
         }
     }
 });
 
-export const { setSearchTerm } = feedSlice.reducers;
+export const selectTerm = (state) => state.feed.searchTerm;
+export const { setSearchTerm } = feedSlice.actions;
 export default feedSlice.reducer;
