@@ -1,5 +1,13 @@
 .header {
     border-bottom: 1px solid black;
+    display: inline-flex;
+
+    width: 100%;
+    border: 1px red solid;
+    
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 .blue {

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 // component import
@@ -9,6 +8,8 @@ function App() {
     <div className="App">
       <Header />
     </div>
+
+
   );
 }
 
