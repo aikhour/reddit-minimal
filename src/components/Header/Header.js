@@ -10,7 +10,7 @@ export default function Header() {
         <div className="header">
             <h1>Reddit <span className='blue'>Minimal</span></h1>
 
-            <SearchBar />
+            <SearchBar/>
 
             <button>
                 Sign In

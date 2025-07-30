@@ -5,6 +5,6 @@ const RootReducer = combineReducers({
     feed: feedSlice.reducer,
 });
 
-const store = configureStore({
-    reducer: RootReducer,
+export const store = configureStore({
+    reducer: RootReducer
 });
