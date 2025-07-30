@@ -3,7 +3,7 @@
     display: inline-flex;
 
     width: 100%;
-    border: 1px red solid;
+    border: 1px rgb(223, 223, 223) solid;
     
     justify-content: space-around;
     align-items: center;

@@ -1,5 +1,7 @@
 import React from "react";
 
+import '../SignIn/signin.css';
+
 export default function SignIn() {
     return (
         <div className="signIn">
@@ -7,7 +9,7 @@ export default function SignIn() {
                 Sign In
             </button>
 
-            <button>
+            <button id='register'>
                 Register
             </button>
         </div>

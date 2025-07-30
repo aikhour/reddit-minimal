@@ -1,6 +1,11 @@
 import React, {useState} from 'react';
 
+// icon import
+import icon from './search.png';
+// https://www.flaticon.com/free-icons/magnifying-glass"
+
 //imports
+import '../SearchBar/searchbar.css';
 import { useDispatch } from 'react-redux';
 
 export default function SearchBar() {
@@ -19,16 +24,19 @@ export default function SearchBar() {
     }
     
     return (
-        <form onSubmit={handleSubmit} className='searchBar'>
+        <form className='searchBar'>
             <input 
                 type='text'
                 value={term}
                 onChange={(e) => setTerm(e.target.value)}
             />
-            <button
-                type="submit"
-            >
-                Search
+            <button>
+                <img 
+                    className='searchButton'
+                    src={icon} 
+                    alt="search button"
+                    onClick={handleSubmit}
+                />
             </button>
         </form>
     )
