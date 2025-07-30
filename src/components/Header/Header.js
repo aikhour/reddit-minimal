@@ -4,6 +4,7 @@ import './header.css';
 
 // component import
 import SearchBar from '../SearchBar/SearchBar';
+import SignIn from '../SignIn/SignIn';
 
 export default function Header() {
     return (
@@ -12,13 +13,7 @@ export default function Header() {
 
             <SearchBar/>
 
-            <button>
-                Sign In
-            </button>
-
-            <button>
-                Register
-            </button>
+            <SignIn />
         </div>
     )
 };
